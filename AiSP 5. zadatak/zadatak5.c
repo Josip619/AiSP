@@ -20,7 +20,6 @@ typedef struct Cvor {
 int citajIzDatoteke(pozicija p, char dat[]);
 int sortiraj(pozicija p);
 int sviZajedno(pozicija p1, pozicija p2, pozicija u);
-int sviZajedno(pozicija p1, pozicija p2, pozicija u);
 int samoZajednicki(pozicija p1, pozicija p2, pozicija pres);
 int ispis(pozicija p);
 
