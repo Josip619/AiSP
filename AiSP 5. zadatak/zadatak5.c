@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-/*5. Za dvije sortirane liste L1 i L2(mogu se pro�itati iz datoteke ili unijeti ru�no, bitno je samo da su sortirane),
-	napisati program koji stvara novu vezanu listu tako da ra�una:
-	a) L1?L2,
-	b) L1? L2.
-	Liste osim pokaziva�a na slijede�u strukturu imaju i jedan cjelobrojni element, po kojem su
+/*5. Za dvije sortirane liste L1 i L2(mogu se procitati iz datoteke ili unijeti rucno, bitno je samo da su sortirane),
+	napisati program koji stvara novu vezanu listu tako da racuna:
+	a) L1 unija L2,
+	b) L1 presijek L2.
+	Liste osim pokazivaca na slijedecu strukturu imaju i jedan cjelobrojni element, po kojem su
 	sortirane.*/
 
 typedef struct Cvor* pozicija;
